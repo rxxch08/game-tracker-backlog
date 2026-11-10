@@ -3,14 +3,14 @@
   "version": "0.1.0",
   "private": true,
   "type": "module",
-"scripts": {
-  "dev": "tsx watch src/index.ts",
-  "build": "tsc -p tsconfig.build.json",
-  "start": "node dist/index.js",
-  "typecheck": "tsc --noEmit",
-  "test": "vitest run",
-  "test:watch": "vitest"
-},
+  "scripts": {
+    "dev": "tsx watch src/index.ts",
+    "build": "tsc -p tsconfig.build.json",
+    "start": "node dist/index.js",
+    "typecheck": "tsc --noEmit",
+    "test": "vitest run",
+    "test:watch": "vitest"
+  },
   "dependencies": {
     "bcryptjs": "^3.0.3",
     "cookie-parser": "^1.4.7",
